@@ -5,11 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a745255d-108e-4af0-8458-a117ca614962" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Teste_Francinato.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dados_extraidos.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/CsvWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/DataTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/PdfTableExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/ZipUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/AnsScraper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testWebScraping/AnsScraper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testWebScraping/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/PdfDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testWebScraping/PdfDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/ZipUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testWebScraping/ZipUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ans-web-scraper-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ans-web-scraper-1.0.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
