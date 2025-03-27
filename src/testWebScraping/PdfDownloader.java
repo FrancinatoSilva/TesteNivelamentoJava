@@ -1,4 +1,3 @@
-
 package testWebScraping;
 
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -20,16 +19,25 @@ public class PdfDownloader {
                 String fileName = url.substring(url.lastIndexOf("/") + 1);
                 File file = new File(dir, fileName);
 
+                System.out.println("Baixando: " + fileName);
                 HttpGet request = new HttpGet(url);
+
                 try (CloseableHttpResponse response = httpClient.execute(request);
                      InputStream is = response.getEntity().getContent();
                      FileOutputStream fos = new FileOutputStream(file)) {
+
+                    if (response.getStatusLine().getStatusCode() != 200) {
+                        System.err.println("Falha ao baixar: " + url);
+                        continue;
+                    }
 
                     byte[] buffer = new byte[4096];
                     int bytesRead;
                     while ((bytesRead = is.read(buffer)) != -1) {
                         fos.write(buffer, 0, bytesRead);
                     }
+
+                    System.out.println("Download concluído: " + fileName);
                 }
             }
         }

@@ -12,12 +12,15 @@ public class AnsScraper {
 
     public static List<String> extractPdfLinks() throws Exception {
         List<String> pdfLinks = new ArrayList<>();
-        Document doc = Jsoup.connect(ANS_URL).get();
+        Document doc = Jsoup.connect(ANS_URL)
+                .userAgent("Mozilla/5.0")
+                .timeout(10_000)
+                .get();
 
         Elements links = doc.select("a[href$=.pdf]");
         for (Element link : links) {
-            String href = link.attr("abs:href");
-            if (href.contains("Anexo")) {
+            String href = link.absUrl("href");
+            if (href.toLowerCase().contains("anexo")) {
                 pdfLinks.add(href);
             }
         }
