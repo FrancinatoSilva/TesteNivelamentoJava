@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a745255d-108e-4af0-8458-a117ca614962" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Teste_Francinato.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dados_extraidos.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/CsvWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/DataTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/PdfTableExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/testTransformacaoDeDados/ZipUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ans-web-scraper-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ans-web-scraper-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/CsvWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/DataTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/PdfTableExtractor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/ZipUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testWebScraping/AnsScraper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testWebScraping/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testWebScraping/PdfDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testWebScraping/ZipUtils.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ireno/Documents/Projetos Java/TesteNivelamentoJava&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ireno/Documents/Projetos Java/TesteNivelamentoJava/src/Main.java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
