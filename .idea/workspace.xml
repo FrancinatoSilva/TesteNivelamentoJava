@@ -6,15 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a745255d-108e-4af0-8458-a117ca614962" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/CsvWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/DataTransformer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/PdfTableExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testTransformacaoDeDados/ZipUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/AnsScraper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/PdfDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testWebScraping/ZipUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Teste_Francinato.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Teste_Francinato.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anexos.zip" beforeDir="false" afterPath="$PROJECT_DIR$/anexos.zip" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
