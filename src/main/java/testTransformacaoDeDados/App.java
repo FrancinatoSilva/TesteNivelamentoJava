@@ -12,7 +12,11 @@ public class App {
 
             List<String[]> tabelaExtraida = PdfTableExtractor.extrairTabela();
 
-            DataTransformer.substituirAbreviacoes(tabelaExtraida);
+            if (tabelaExtraida == null || tabelaExtraida.isEmpty()) {
+                throw new IOException("Tabela extraída está vazia ou nula.");
+            }
+
+            DataTransformer.substituirAbreviacoes(tabelaExtraida, 3, 4);
 
             CsvWriter.salvarComoCSV(tabelaExtraida, csvPath);
 

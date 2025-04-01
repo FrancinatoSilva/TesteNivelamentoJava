@@ -2,7 +2,7 @@
 
 ### **Objetivo**
 
-O objetivo desta aplicação é realizar o scraping do site da ANS (Agência Nacional de Saúde Suplementar) para baixar arquivos PDF (Anexo I), extrair e processar dados de uma tabela contida nesses PDFs, transformar esses dados em formato CSV, compactá-los em um arquivo ZIP e garantir que abreviações nas colunas sejam substituídas pelas descrições completas.
+O objetivo desta aplicação é realizar o scraping do site da ANS (Agência Nacional de Saúde Suplementar) para baixar arquivos PDF (Anexo I e Anexo II), compactar todos os anexos em um único arquivo formato ZIP, extrair os dados da tabela Rol de Procedimentos e Eventos em Saúde do PDF do Anexo I, salva-los em uma tabela estruturada no formato csv, compactar o csv no arquivo "Teste_Francinato.ZIP" e garantir que abreviações nas colunas OD e AMB sejam substituídas pelas descrições completas.
 
 ### **Estrutura do Projeto**
 
